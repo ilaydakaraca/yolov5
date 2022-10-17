@@ -11,8 +11,10 @@ import requests
 
 
 
-url = ("http://dl.dropboxusercontent.com/s/puam7atr8213pks/colony.pt?raw=1")
-filename = "colony.pt"
+#url = ("http://dl.dropboxusercontent.com/s/puam7atr8213pks/colony.pt?raw=1")
+url = ("http://dl.dropboxusercontent.com/s/drg59pqp7b56sf8/best.pt?raw=1")
+
+filename = "best.pt"
 urlretrieve(url,filename)
 
 

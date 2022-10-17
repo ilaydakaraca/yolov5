@@ -4,6 +4,8 @@ __author__ = "Ilayd Karaca"
 import streamlit as st
 from PIL import Image
 from urllib.request import urlretrieve
+import numpy as np
+import torch
 import requests
 
 
